@@ -5,7 +5,7 @@ const secEl = document.getElementById('sec');
 const eventDate = document.getElementById('enterDate');
 
 function countdown () {
-    const getDate = eventDate.value
+    let  getDate = eventDate.value
     const newGetDate = new Date(getDate);
     const currentDate = new Date();
 
